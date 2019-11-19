@@ -1,6 +1,8 @@
 <template>
   <div class="explanation-text">
-    <span>{{ text }}</span>
+    <span>
+      <slot />
+    </span>
   </div>
 </template>
 
