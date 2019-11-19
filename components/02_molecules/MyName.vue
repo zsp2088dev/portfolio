@@ -1,14 +1,14 @@
 <template>
   <div class="my-name">
-    <sub-title-text></sub-title-text>
+    <name-text />
   </div>
 </template>
 
 <script>
-import SubTitleText from '../01_atoms/text/SubTitleText'
+import NameText from '../01_atoms/text/NameText'
 export default {
   name: 'MyName',
-  components: { SubTitleText }
+  components: { NameText }
 }
 </script>
 
