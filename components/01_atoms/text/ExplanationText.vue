@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'ContentsText',
+  name: 'ExplanationText',
   props: {
     text: {
       type: String,
