@@ -1,10 +1,48 @@
 <template>
-  <p></p>
+  <div class="my-skills">
+    <div class="my-skills-title">
+      <main-title-text title="SKILLS" />
+    </div>
+
+    <div class="my-skills-contents">
+      <explanation-text>
+        「Hello World!」をしたことがあるだけのものは除き、
+        実際に動かしたり使用しているソフトウェア技術やツール等をピックアップしてみました。
+      </explanation-text>
+
+      <explanation-text>
+        フロントエンドからバックエンドまで幅広い領域に触れることで、
+        ソフトウェアエンジニアとしての能力を底上げしたいと考えています。
+      </explanation-text>
+
+      <ul>
+        <li v-for="(skills, title) in items" :key="title">
+          <skill-item :title="title" :skills="skills" />
+        </li>
+      </ul>
+    </div>
+  </div>
 </template>
 
 <script>
+import MainTitleText from '../01_atoms/text/MainTitleText'
+import ExplanationText from '../01_atoms/text/ExplanationText'
+import SkillItem from '../02_molecules/SkillItem'
 export default {
-  name: 'MySkills'
+  name: 'MySkills',
+  components: { SkillItem, ExplanationText, MainTitleText },
+  data: () => {
+    return {
+      items: {
+        Languages: ['Go', 'Python', 'JavaScript'],
+        Frameworks: ['Nuxt.js', 'Vue.js', 'Django'],
+        Tools: ['Git', 'JetBrains IDE', 'Figma'],
+        Architecture: ['Clean Architecture', 'DDD'],
+        Server: ['Firebase', 'Heroku'],
+        SaaS: ['GitHub', 'Slack', 'CircleCI']
+      }
+    }
+  }
 }
 </script>
 
