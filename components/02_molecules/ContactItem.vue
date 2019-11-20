@@ -1,7 +1,7 @@
 <template>
   <div class="contact-item">
     <service-icon></service-icon>
-    <item-text :item="item"></item-text>
+    <item-text :item="account"></item-text>
   </div>
 </template>
 
@@ -12,7 +12,7 @@ export default {
   name: 'ContactItem',
   components: { ItemText, ServiceIcon },
   props: {
-    item: {
+    account: {
       type: String,
       default: ''
     }
