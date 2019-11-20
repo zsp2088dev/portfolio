@@ -1,8 +1,8 @@
 <template>
   <div class="explanation-text">
-    <span>
+    <p>
       <slot />
-    </span>
+    </p>
   </div>
 </template>
 
