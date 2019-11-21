@@ -1,10 +1,23 @@
 <template>
-  <div class="service-icon"></div>
+  <div class="service-icon">
+    <img :src="src" :alt="service" width="32" height="32" />
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'ServiceIcon'
+  name: 'ServiceIcon',
+  props: {
+    service: {
+      type: String,
+      default: 'default'
+    }
+  },
+  computed: {
+    src() {
+      return require(`@/assets/icon-${this.service}.svg`)
+    }
+  }
 }
 </script>
 

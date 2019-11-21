@@ -1,7 +1,7 @@
 <template>
   <div class="contact-item">
-    <service-icon></service-icon>
-    <item-text :item="account"></item-text>
+    <service-icon :service="service" />
+    <item-text :item="account" />
   </div>
 </template>
 
@@ -15,6 +15,10 @@ export default {
     account: {
       type: String,
       default: ''
+    },
+    service: {
+      type: String,
+      default: 'default'
     }
   }
 }

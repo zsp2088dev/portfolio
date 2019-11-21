@@ -11,11 +11,9 @@
       </explanation-text>
       <ul>
         <li v-for="(item, index) in items" :key="index">
-          <contact-item :account="item.account" />
+          <contact-item :account="item.account" :service="item.service" />
         </li>
       </ul>
-      <contact-item item="zsp2088dev@g" />
-      <contact-item />
     </div>
   </div>
 </template>
@@ -29,7 +27,20 @@ export default {
   components: { ContactItem, ExplanationText, MainTitleText },
   data: () => {
     return {
-      items: [{ account: '@zsp2088dev' }, { account: 'zsp2088dev@gmail.com' }]
+      items: [
+        {
+          service: 'twitter',
+          account: '@zsp2088dev'
+        },
+        {
+          service: 'github',
+          account: 'zsp2088dev'
+        },
+        {
+          service: 'mail',
+          account: 'zsp2088dev@gmail.com'
+        }
+      ]
     }
   }
 }
