@@ -23,4 +23,8 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+.date-text-string {
+  font-size: 0.85em;
+}
+</style>

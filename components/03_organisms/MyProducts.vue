@@ -8,9 +8,6 @@
       <explanation-text>
         過去に制作したシステムWebサイト等をまとめました。
         新たに制作したものは今後ここに追加していきます。
-      </explanation-text>
-
-      <explanation-text>
         現在では仮想通貨自動取引システムであるCATS (Crypto Auto Trading System)
         を制作しています。
         本システムは、拡張性、変更容易性、可読性の高いシステムの実現を目的としており、
@@ -59,5 +56,19 @@ export default {
   color: $title-color;
   background-color: $primary-color;
   padding: $title-padding;
+}
+
+.explanation-text {
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.my-products-contents {
+  margin: 0 25% 0 25%;
+}
+
+li {
+  display: inline-block;
+  padding: 0 1rem;
 }
 </style>
