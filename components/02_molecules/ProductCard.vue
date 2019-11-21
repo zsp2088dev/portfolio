@@ -1,7 +1,7 @@
 <template>
   <div class="product-card">
     <sub-title-text :title="title"></sub-title-text>
-    <explanation-text>{{ text }}}</explanation-text>
+    <explanation-text>{{ text }}</explanation-text>
     <date-text :year="year" :month="month"></date-text>
   </div>
 </template>
