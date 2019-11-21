@@ -9,7 +9,7 @@ export default {
   name: 'MyIcon',
   computed: {
     path() {
-      return require(`@/assets/icon-me.jpg`)
+      return require(`@/assets/icons/icon-me.jpg`)
     }
   }
 }
