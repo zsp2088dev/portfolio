@@ -48,6 +48,6 @@ export default {
     extend(config, ctx) {}
   },
   styleResources: {
-    scss: ['~/assets/scss/variable.scss']
+    scss: ['~/assets/scss/variables.scss']
   }
 }
