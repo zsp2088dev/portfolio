@@ -8,18 +8,19 @@
       <explanation-text>
         「Hello World!」をしたことがあるだけのものは除き、
         実際に動かしたり使用しているソフトウェア技術やツール等をピックアップしてみました。
-      </explanation-text>
-
-      <explanation-text>
         フロントエンドからバックエンドまで幅広い領域に触れることで、
         ソフトウェアエンジニアとしての能力を底上げしたいと考えています。
       </explanation-text>
 
-      <ul>
-        <li v-for="(skills, title) in items" :key="title">
-          <skill-item :title="title" :skills="skills" />
-        </li>
-      </ul>
+      <div class="skills">
+        <ul>
+          <li v-for="(skills, title) in items" :key="title">
+            <skill-item :title="title" :skills="skills" />
+          </li>
+        </ul>
+      </div>
+
+      <p style="margin-bottom: 10%"></p>
     </div>
   </div>
 </template>
@@ -37,8 +38,8 @@ export default {
         Languages: ['Go', 'Python', 'JavaScript'],
         Frameworks: ['Nuxt.js', 'Vue.js', 'Django'],
         Tools: ['Git', 'JetBrains IDE', 'Figma'],
-        Architecture: ['Clean Architecture', 'DDD'],
-        Server: ['Firebase', 'Heroku'],
+        Architecture: ['Clean Architecture', 'DDD', 'MVC'],
+        Server: ['Firebase', 'Heroku', 'Netlify'],
         SaaS: ['GitHub', 'Slack', 'CircleCI']
       }
     }
@@ -51,5 +52,23 @@ export default {
   color: $title-color;
   background-color: $primary-color;
   padding: $title-padding;
+}
+.my-skills-contents {
+  margin: 0 25% 0 25%;
+}
+
+.explanation-text {
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  padding: 20px;
 }
 </style>
