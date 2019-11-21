@@ -24,4 +24,12 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+.contact-item {
+  display: inline-flex;
+  padding-bottom: 0.5rem;
+}
+.service-icon {
+  padding-right: 1rem;
+}
+</style>

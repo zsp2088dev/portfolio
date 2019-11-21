@@ -7,7 +7,8 @@
     <div class="my-contact-contents">
       <explanation-text>
         基本的にはTwitterのDMにてご連絡のほどよろしくお願いいたします。
-        メールでの対応も可能ですが、Twitterを利用したほうが返信が早いかと思います。
+        メールでの対応も可能ですが、TwitterのDMを利用したほうが返信が早いかと思います。
+        ご連絡お待ちしております。
       </explanation-text>
       <ul>
         <li v-for="(item, index) in items" :key="index">
@@ -51,5 +52,23 @@ export default {
   color: $title-color;
   background-color: $primary-color;
   padding: $title-padding;
+}
+
+.my-contact-contents {
+  margin: 0 25% 0 25%;
+}
+
+.explanation-text {
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+ul {
+  display: inline-block;
+  padding-left: 0;
+  padding-bottom: 10%;
+}
+ul li {
+  text-align: left;
 }
 </style>
