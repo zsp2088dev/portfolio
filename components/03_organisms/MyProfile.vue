@@ -31,4 +31,10 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+.my-profile-title {
+  color: $title-color;
+  background-color: $primary-color;
+  padding: $title-padding;
+}
+</style>
