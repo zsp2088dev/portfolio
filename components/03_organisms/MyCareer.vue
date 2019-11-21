@@ -5,6 +5,7 @@
     </div>
 
     <div class="my-career-contents">
+      <p style="margin-bottom: 10%"></p>
       <explanation-text />
       <ul>
         <li v-for="(item, index) in items" :key="index">
@@ -16,6 +17,7 @@
           />
         </li>
       </ul>
+      <p style="margin-bottom: 10%"></p>
     </div>
   </div>
 </template>
@@ -59,5 +61,14 @@ export default {
   color: $title-color;
   background-color: $primary-color;
   padding: $title-padding;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  padding-bottom: 5%;
 }
 </style>

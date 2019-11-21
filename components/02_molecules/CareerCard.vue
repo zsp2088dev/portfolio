@@ -34,4 +34,19 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+.career-card {
+  border-top: solid 5px $text-color;
+  border-bottom: solid 5px $text-color;
+  padding: 2rem 0;
+  width: 400px;
+}
+
+.sub-title-text {
+  margin-bottom: 1.3rem;
+}
+
+.explanation-text {
+  margin-bottom: 1rem;
+}
+</style>
