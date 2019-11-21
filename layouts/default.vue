@@ -23,4 +23,8 @@ html {
   -webkit-font-smoothing: antialiased;
   text-align: center;
 }
+
+ul li {
+  list-style: none;
+}
 </style>
