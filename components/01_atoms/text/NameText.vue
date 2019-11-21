@@ -1,6 +1,6 @@
 <template>
   <div class="name-text">
-    <span>{{ name }}</span>
+    <span class="text">{{ name }}</span>
   </div>
 </template>
 
@@ -16,4 +16,11 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+span {
+  font-size: 2rem;
+  font-family: 'DIN Condensed', serif;
+  border-bottom: solid 2px $text-color;
+  padding-bottom: 3px;
+}
+</style>
