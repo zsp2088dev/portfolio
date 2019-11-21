@@ -15,7 +15,7 @@ export default {
   },
   computed: {
     src() {
-      return require(`@/assets/icon-${this.service}.svg`)
+      return require(`@/assets/icons/icon-${this.service}.svg`)
     }
   }
 }
