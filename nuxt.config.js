@@ -37,7 +37,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ['@nuxtjs/style-resources'],
   /*
    ** Build configuration
    */
@@ -46,5 +46,8 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+  styleResources: {
+    scss: ['~/assets/scss/variable.scss']
   }
 }
