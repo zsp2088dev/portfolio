@@ -46,4 +46,10 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+.my-skills-title {
+  color: $title-color;
+  background-color: $primary-color;
+  padding: $title-padding;
+}
+</style>
