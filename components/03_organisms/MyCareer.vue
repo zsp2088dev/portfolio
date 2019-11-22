@@ -17,7 +17,6 @@
           />
         </li>
       </ul>
-      <p style="margin-bottom: 10%"></p>
     </div>
   </div>
 </template>
@@ -61,6 +60,10 @@ export default {
   color: $title-color;
   background-color: $primary-color;
   padding: $title-padding;
+}
+
+.my-career-contents {
+  margin: $contents-margin;
 }
 ul {
   display: flex;

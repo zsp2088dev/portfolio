@@ -39,20 +39,17 @@ export default {
 }
 
 .my-profile-contents {
-  margin: 0 25% 0 25%;
+  margin: $contents-margin;
 }
 
 .my-icon {
-  padding: 10% 0 3.5% 0;
+  padding-bottom: 3.5%;
 }
 
 .my-name {
   padding-bottom: 5%;
 }
-.explanation-text-1 {
+.explanation-text {
   padding-bottom: 2%;
-}
-.explanation-text-2 {
-  padding-bottom: 10%;
 }
 </style>

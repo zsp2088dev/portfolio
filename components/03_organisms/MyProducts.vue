@@ -58,13 +58,12 @@ export default {
   padding: $title-padding;
 }
 
-.explanation-text {
-  padding-top: 10%;
-  padding-bottom: 5%;
+.my-products-contents {
+  margin: $contents-margin;
 }
 
-.my-products-contents {
-  margin: 0 25% 0 25%;
+.explanation-text {
+  padding-bottom: 5%;
 }
 
 li {
