@@ -54,11 +54,10 @@ export default {
   padding: $title-padding;
 }
 .my-skills-contents {
-  margin: 0 25% 0 25%;
+  margin: $contents-margin;
 }
 
 .explanation-text {
-  padding-top: 10%;
   padding-bottom: 5%;
 }
 

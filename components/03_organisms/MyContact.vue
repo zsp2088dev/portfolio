@@ -55,18 +55,16 @@ export default {
 }
 
 .my-contact-contents {
-  margin: 0 25% 0 25%;
+  margin: $contents-margin;
 }
 
 .explanation-text {
-  padding-top: 10%;
-  padding-bottom: 5%;
+  margin-bottom: 8.5%;
 }
 
 ul {
   display: inline-block;
   padding-left: 0;
-  padding-bottom: 10%;
 }
 ul li {
   text-align: left;
