@@ -1,7 +1,5 @@
 # Zu's Portfolio
 
-> 「Nuxt.js + Atomic Desing + Netlify」を使用したポートフォリオサイト
-
 ![Zu's Portfolio](assets/img/website.png)
 
 ## URL
