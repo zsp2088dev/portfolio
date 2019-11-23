@@ -13,6 +13,14 @@ export default {
         name: 'description',
         content: process.env.npm_package_description || ''
       }
+    ],
+    link: [
+      {
+        rel: 'icon',
+        sizes: '48x48',
+        type: 'image/png',
+        href: '/favicon.png'
+      }
     ]
   },
   /*
