@@ -2,6 +2,8 @@
 
 > 「Nuxt.js + Atomic Desing + Netlify」を使用したポートフォリオサイト
 
+![Zu's Portfolio](assets/img/website.png)
+
 ## URL
 - https://zsp2088dev.netlify.com/
 
