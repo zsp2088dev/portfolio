@@ -1,4 +1,4 @@
-# Zu’s Portfolio
+# Zu's Portfolio
 
 > 「Nuxt.js + Atomic Desing + Netlify」を使用したポートフォリオサイト
 
