@@ -14,7 +14,7 @@
 
       <explanation-text class="explanation-text-2">
         プログラミングは大学に入ってから学び始め、現在(2019月11月)ではGo、Python、Nuxt.jsあたりの技術に触れています。
-        現在ではソフトウェア設計に興味があり、学んだ技術を生かしてソフトウェア制作を行っているところです。
+        現在ではソフトウェア設計に興味があり、これまでに学んだ技術を生かしてソフトウェア制作を行っているところです。
       </explanation-text>
     </div>
   </div>
@@ -47,9 +47,9 @@ export default {
 }
 
 .my-name {
-  padding-bottom: 5%;
+  margin-bottom: 2rem;
 }
 .explanation-text {
-  padding-bottom: 2%;
+  margin-bottom: 1rem;
 }
 </style>
