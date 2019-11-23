@@ -4,14 +4,17 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Zu’s Portfolio',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content:
+          '静岡大学 大学院 総合科学技術研究科 情報学専攻修士1年。' +
+          '大学院卒業後はWeb系企業に就職したいと考えており、' +
+          'ソフトウェア技術について幅広く学んでいる最中です。'
       }
     ],
     link: [
