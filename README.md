@@ -1,22 +1,27 @@
-# portfolio
+# Zu’s Portfolio
 
-> zsp2088dev&#39;s portfolio
+> 「Nuxt.js + Atomic Desing + Netlify」を使用したポートフォリオサイト
 
-## Build Setup
+## URL
+- https://zsp2088dev.netlify.com/
+
+## 動作環境
+- Node.js v10.16.3
+- Nuxt.js v2.10.2
+
+## ビルドとセットアップ
 
 ``` bash
-# install dependencies
+# パッケージのインストール
 $ yarn install
 
-# serve with hot reload at localhost:3000
+# 開発環境で実行 (localhost:3000)
 $ yarn dev
 
-# build for production and launch server
+# ビルドして実行
 $ yarn build
 $ yarn start
 
-# generate static project
+# アプリケーションをビルドして静的ファイルを生成
 $ yarn generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
