@@ -21,6 +21,7 @@ export default {
 <style scoped lang="scss">
 .title {
   font-family: 'DIN Condensed', serif;
+  font-size: 2.7rem;
   border-bottom: $title-bottom;
 }
 </style>
