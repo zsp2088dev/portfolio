@@ -44,6 +44,13 @@ export default {
             'Nuxt.js, Vuetify, CircleCIを使用してポートフォリオサイトを作成しました。',
           year: 2019,
           month: 3
+        },
+        {
+          title: 'Book MS',
+          text:
+            'Nuxt.js, Firebase, Atomic Design, を使用して書籍管理アプリを作成しました。',
+          year: 2019,
+          month: 3
         }
       ]
     }
