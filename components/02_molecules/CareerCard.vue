@@ -1,8 +1,8 @@
 <template>
   <div class="career-card">
-    <sub-title-text :title="title"></sub-title-text>
+    <sub-title-text :title="title" />
     <explanation-text>{{ text }}</explanation-text>
-    <date-text :year="year" :month="month"></date-text>
+    <date-text :year="year" :month="month" />
   </div>
 </template>
 
@@ -36,8 +36,7 @@ export default {
 
 <style scoped lang="scss">
 .career-card {
-  border-top: solid 5px $text-color;
-  border-bottom: solid 5px $text-color;
+  border-bottom: solid 1px $text-color;
   padding: 2rem 0;
   width: 400px;
 }
