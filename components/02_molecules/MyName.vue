@@ -11,5 +11,3 @@ export default {
   components: { NameText }
 }
 </script>
-
-<style scoped></style>

@@ -20,7 +20,7 @@
         </ul>
       </div>
 
-      <p style="margin-bottom: 10%"></p>
+      <p style="margin-bottom: 10%" />
     </div>
   </div>
 </template>
