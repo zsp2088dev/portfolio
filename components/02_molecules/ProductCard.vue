@@ -1,8 +1,8 @@
 <template>
   <div class="product-card">
-    <sub-title-text :title="title"></sub-title-text>
+    <sub-title-text :title="title" />
     <explanation-text>{{ text }}</explanation-text>
-    <date-text :year="year" :month="month"></date-text>
+    <date-text :year="year" :month="month" />
   </div>
 </template>
 

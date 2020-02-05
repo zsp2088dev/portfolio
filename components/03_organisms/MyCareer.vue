@@ -5,7 +5,7 @@
     </div>
 
     <div class="my-career-contents">
-      <p style="margin-bottom: 10%"></p>
+      <p style="margin-bottom: 10%" />
       <explanation-text />
       <ul>
         <li v-for="(item, index) in items" :key="index">

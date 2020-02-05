@@ -4,12 +4,11 @@
     <ul>
       <li v-for="(skill, index) in skills" :key="index">
         <div class="item">
-          <span class="circle"></span>
+          <span class="circle" />
           <item-text :item="skill" />
         </div>
       </li>
     </ul>
-    <p></p>
   </div>
 </template>
 
